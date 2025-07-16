@@ -50,5 +50,5 @@ Tik-Tac-Toe/
 
 Made  by **Abdullah**
 
-[🔗 GitHub Repo](https://github.com/abdullahh545/Tik-Tac-Toe)
+[🔗 GitHub Repo](https://github.com/abdullahh545/Tic-Tac-Toe)
 

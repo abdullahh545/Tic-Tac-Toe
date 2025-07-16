@@ -26,7 +26,7 @@ Open the `index.html` file in your browser.
 
 OR
 
-### 🌐 [Play it Live](https://abdullahh545.github.io/Tik-Tac-Toe/) ← (GitHub Pages link once deployed)
+### 🌐 [Play it Live](https://abdullahh545.github.io/Tic-Tak-Toe/) ← (Click to try the game online)
 
 ## 🧠 Future Enhancements
 - Add AI opponent
@@ -36,7 +36,7 @@ OR
 ---
 
 ## 📂 Project Structure
-Tik-Tac-Toe/
+Tic-Tak-Toe/
 ├── asset/
 │ ├── background.mp3
 │ ├── button.mp3
@@ -47,8 +47,11 @@ Tik-Tac-Toe/
 ├── index.html
 └── README.md
 
+## 🙌 Author
 
-Made  by **Abdullah**
+Made by **Abdullah**
 
-[🔗 GitHub Repo](https://github.com/abdullahh545/Tic-Tac-Toe)
+[🔗 GitHub Repo](https://github.com/abdullahh545/Tic-Tak-Toe)
+
+
 

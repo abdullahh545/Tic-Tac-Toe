@@ -1,0 +1,157 @@
+/* === General Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #dff9fb, #8ef0ef);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+/* === Heading and Message === */
+h1 {
+  font-size: 3rem;
+  color: #2d3436;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px #aaa;
+}
+
+#message {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  background: #ffffffcc;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* === 4x4 Grid === */
+#board {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* === 3x3 Grid === */
+.grid3x3 {
+  display: none;
+  grid-template-columns: repeat(3, 80px);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* === Squares === */
+.sqr,
+.sqr3 {
+  width: 80px;
+  height: 80px;
+  background: #f1f2f6;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #2d3436;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+  border-radius: 10px;
+}
+
+.sqr:hover,
+.sqr3:hover {
+  background: #ffeaa7;
+  transform: scale(1.05);
+}
+
+/* === X and O Colors === */
+.sqr.X,
+.sqr3.X {
+  color: #0984e3;
+}
+
+.sqr.O,
+.sqr3.O {
+  color: #d63031;
+}
+
+/* === Mode Buttons === */
+#mode-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#mode-button button {
+  padding: 10px 25px;
+  font-size: 1rem;
+  margin: 10px 8px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  color: #2d3436;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+#mode-button button:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+/* === Reset Button === */
+#reset-btn {
+  padding: 10px 25px;
+  font-size: 1rem;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #55efc4;
+  color: #2d3436;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+#reset-btn:hover {
+  background: #00b894;
+  color: white;
+}
+
+/* === Reset Button position in 3x3 === */
+.grid3x3 + #reset-btn {
+  display: none;
+}
+
+body.three-by-three .grid3x3 + #reset-btn {
+  display: block;
+  margin-bottom: 15px;
+}
+
+
+#message {
+  /* color: #0037b8; */
+  font-size: 1.5rem;
+  padding: 12px 24px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #74b9ff, #a29bfe);
+  color: #fff;
+text-align: center;
+transition: all 0.3s ease;
+letter-spacing: 1px;
+border: 2px solid #6c5ce7;
+font-weight: bold;
+
+}

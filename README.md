@@ -3,9 +3,11 @@
 ![tic-tac-toe](https://github.com/user-attachments/assets/52c4a628-e4ed-4d98-8e95-11f3386e5f91)
 
 
-# Tic-Tac-Toe (3x3 and 4x4 Modes)
+🎮 Tic Tac Toe Game – 3x3 and 4x4 Mode
+Welcome to Tic Tac Toe, a modern version of the classic game! This project allows players to switch between the traditional 3x3 mode and an advanced 4x4 mode — each offering a unique level of challenge.
 
-This is a fun and responsive Tic-Tac-Toe game built with **HTML, CSS, and JavaScript** that allows players to switch between **3x3** and **4x4** modes.
+With simple but colorful design, hover effects, and click/reset sounds, this game gives a fun and interactive experience for two players.
+
 
 ## 🎮 Features
 - ✅ 3x3 and 4x4 game modes
@@ -20,11 +22,6 @@ This is a fun and responsive Tic-Tac-Toe game built with **HTML, CSS, and JavaSc
 - CSS3
 - JavaScript (Vanilla)
 
-## 📸 Screenshots
-
-| 3x3 Mode              | 4x4 Mode              |
-|-----------------------|-----------------------|
-| ![3x3](asset/3x3-demo.png) | ![4x4](asset/4x4-demo.png) |
 
 ## 🚀 Run the Game
 Open the `index.html` file in your browser.

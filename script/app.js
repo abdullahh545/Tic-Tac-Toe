@@ -99,6 +99,7 @@ function init() {
     document.getElementById('reset-sound').play();
     board = Array(16).fill('');
     currentPlayer = 'X'
+    gameOver = false
     rendorBoard()
     message.textContent = `${currentPlayer}'s turn`;
 

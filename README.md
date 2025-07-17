@@ -12,7 +12,6 @@ With simple but colorful design, hover effects, and click/reset sounds, this gam
 ## 🎮 Features
 - ✅ 3x3 and 4x4 game modes
 - 🎵 Sound effects for button clicks, mode switching, and resets
-- 🔁 Background music (autoplay + loop)
 - 🎨 Stylish and responsive user interface
 - 🔄 Reset button for a fresh start
 - 🧠 AI-ready structure (can be extended for AI opponent)

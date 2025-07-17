@@ -1,3 +1,8 @@
+
+
+![tic-tac-toe](https://github.com/user-attachments/assets/52c4a628-e4ed-4d98-8e95-11f3386e5f91)
+
+
 # Tic-Tac-Toe (3x3 and 4x4 Modes)
 
 This is a fun and responsive Tic-Tac-Toe game built with **HTML, CSS, and JavaScript** that allows players to switch between **3x3** and **4x4** modes.

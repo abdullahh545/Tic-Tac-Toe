@@ -1,6 +1,6 @@
 
 
-![tic-tac-toe](https://github.com/user-attachments/assets/52c4a628-e4ed-4d98-8e95-11f3386e5f91 =250px)
+![tic-tac-toe](https://github.com/user-attachments/assets/52c4a628-e4ed-4d98-8e95-11f3386e5f91 = 250px)
 
 
 🎮 Tic Tac Toe Game – 3x3 and 4x4 Mode
